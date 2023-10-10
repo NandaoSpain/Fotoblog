@@ -76,7 +76,6 @@ ul li.active {
 
 .input-group input {
     width: 100%;
-    margin-top: 3px;
     padding: 1.6rem;
     background-color: var(--color-base-gray-100);
     border: none;
@@ -219,7 +218,7 @@ footer {
 .input-group__input:valid + 
 .input-group__label {
     padding-inline: 5px;
-    translate: 10px -15px;
+    translate: 10px -12px;
     scale: 0.8;
-   
+    background-color: var(--color-base-gray-100);
 }
